@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ingress-v3
-  namespace: platone-wp5-balancer-dev-v3
+  namespace: default
   annotations:
     # cert-manager.io/cluster-issuer: letsencrypt-prod
     # # type of authentication
@@ -17,7 +17,7 @@ spec:
   #     - v3.wp5.platone-dsotp.k8s.eonerc.rwth-aachen.de
   #     secretName: letsencrypt-dsotp-api
   rules:
-  - host: <hostname>
+  - host: sogno-linux.online
     http:
       paths:
       - path: /

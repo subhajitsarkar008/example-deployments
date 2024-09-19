@@ -14,7 +14,7 @@ metadata:
 spec:
   # tls:
   #   - hosts:
-  #     - v3.wp5.platone-dsotp.k8s.eonerc.rwth-aachen.de
+  #     - sogno-linux.online
   #     secretName: letsencrypt-dsotp-api
   rules:
   - host: sogno-linux.online
